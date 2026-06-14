@@ -1,0 +1,9 @@
+{
+  "QueueConfigurations": [
+    {
+      "Id": "SendToSQS",
+      "QueueArn": "arn:aws:sqs:ap-south-2:568521409124:file-processing-queue",
+      "Events": ["s3:ObjectCreated:*"]
+    }
+  ]
+}
